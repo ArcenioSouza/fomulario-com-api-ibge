@@ -1,4 +1,4 @@
-(function () {
+(function renderEstado() {
    $.ajax({
       type: "GET",
       url: "https://servicodados.ibge.gov.br/api/v1/localidades/estados",
@@ -12,7 +12,7 @@
    });
 })();
 
-function renderUf() {
+(function renderUf() {
    const selectEstado = $("#estado").val();
    $.ajax({
       type: "GET",
@@ -25,7 +25,7 @@ function renderUf() {
          }
       },
    });
-}
+})();
 
 function renderMunicipio() {
    const selectUf = $("#uf").val();
@@ -44,7 +44,6 @@ function renderMunicipio() {
    });
 }
 
-const selectEstado = document.querySelector("#estado");
 const selectUf = document.querySelector("#uf");
-selectEstado.addEventListener("change", () => renderUf());
+
 selectUf.addEventListener("change", () => renderMunicipio());

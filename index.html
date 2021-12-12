@@ -8,7 +8,10 @@
       <title>API Rest IBGE</title>
    </head>
    <body>
-      <header></header>
+      <header>
+         <h1>Formulário</h1>
+         <span>API do IBGE</span>
+      </header>
       <form>
          <div>
             <label for="name">Nome:</label>
@@ -23,16 +26,20 @@
             <select name="estado" id="estado">
                <option>Escolha um Estado</option>
             </select>
+            //carrega as informações junto com o carregamento da página.
          </div>
          <div>
             <label for="uf">UF:</label>
             <select name="uf" id="uf">
                <option>Escolha uma UF</option>
             </select>
+            //carrega as informações junto com o carregamento da página.
          </div>
          <div>
             <label for="uf">Municipio: </label>
-            <select name="municipio" id="municipio"></select>
+            <select name="municipio" id="municipio">
+               <option>Escolha um Municipio</option>
+            </select> //carrega as informações ao escolher uma UF
          </div>
       </form>
 
