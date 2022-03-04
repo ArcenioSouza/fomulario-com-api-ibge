@@ -4,9 +4,9 @@ Esse formulário consulta a api do IBGE para preencher os selects com as informa
 
 # Objetivos
 
-- [x] - Praticar o consumo de API com JQuery e Ajax;
+- [x] Praticar o consumo de API com JQuery e Ajax;
 
-- [x] - Praticar a manipulação do DOM com JQuery;
+- [x] Praticar a manipulação do DOM com JQuery;
 
 # Site
 
