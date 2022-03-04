@@ -10,4 +10,4 @@ Esse formulário consulta a api do IBGE para preencher os selects com as informa
 
 # Site
 
-[https://arceniosouza.github.io/fomulario-com-api-ibge/](https://arceniosouza.github.io/fomulario-com-api-ibge/)
+[https://arceniosouza.github.io/fomulario-com-api-ibge/](https://arceniosouza.github.io/formulario-com-api-ibge/)
